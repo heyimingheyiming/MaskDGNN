@@ -128,8 +128,7 @@ if __name__ == '__main__':
 
     # Load dataset
     if args.dataset in ["reddit_body", "reddit_title", "as_733", "uci-msg", "bitcoinotc", "bitcoinalpha",
-                        'stackoverflow_M', "mooc", "uslegis", "untrade", "unvote", "canparl", "bitcoinotc-yuan",
-                        "bitcoinalpha-yuan", "dblp", "wiki-talk-temporal"]:
+                        'stackoverflow_M', "mooc", "uslegis", "untrade", "unvote", "canparl", "dblp", "wiki-talk-temporal"]:
         graphs, e_feat, e_time, n_feat, edge_index1, node_activity_score = load_r(args.dataset)
     else:
         raise ValueError
