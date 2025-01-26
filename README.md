@@ -1,15 +1,10 @@
-Here is a detailed and professional README file for your **MaskDGNN** model, inspired by the format but with added specifics for clarity and distinction.
-
----
-
 # MaskDGNN: Self-Supervised Dynamic Graph Neural Networks with Activeness-aware Temporal Masking
 
-This repository contains the PyTorch implementation of **MaskDGNN**, a novel architecture designed to handle dynamic graphs by addressing the challenges of redundant information and distribution shifts. MaskDGNN achieves state-of-the-art performance on multiple dynamic graph datasets using its **Activeness-aware Temporal Masking** and **Adaptive Frequency Enhancing** modules.
+This repository contains the PyTorch implementation of **MaskDGNN**, a novel architecture designed to handle dynamic graphs by addressing the challenges of redundant information and distribution shifts. MaskDGNN achieves state-of-the-art performance on multiple dynamic graph datasets using its **Self-Supervised Activeness-aware Temporal Masking Module** and **Adaptive Frequency Enhancing Graph Representation Learner**.
 
 ## Key Features
-- **Self-Supervised Temporal Masking:** Focuses on highly active nodes to retain critical temporal features while reducing redundancy.
-- **Adaptive Frequency Enhancing Layer:** Leverages spectral-domain transformations to capture intrinsic features under distribution shifts.
-- **Sliding Window Strategy:** Aggregates long-term dependencies efficiently.
+- **Self-Supervised Activeness-aware Temporal Masking Module:** Focuses on highly active nodes to retain critical temporal features while reducing redundancy.
+- **Adaptive Frequency Enhancing Graph Representation Learner:** Leverages spectral-domain transformations to capture intrinsic features under distribution shifts.
 
 ## Requirements
 
@@ -26,8 +21,6 @@ pip install -r requirements.txt
 - `torch==1.12.1+cu116`
 - `torch-scatter==2.0.9`
   
-## How to Run
-
 ### Running MaskDGNN
 You can run **MaskDGNN** on the provided datasets using the following commands:
 
@@ -70,4 +63,3 @@ MaskDGNN has been evaluated on the following datasets:
 
 
 
-This README provides a clear and detailed explanation of your model, environment, datasets, and commands, distinguishing it from others while being comprehensive. Let me know if you'd like any adjustments!
